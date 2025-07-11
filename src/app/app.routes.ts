@@ -7,22 +7,23 @@ import { MeComponent } from './me/me.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 export const routes: Routes = [
-    {path:"Home", component: HomeComponent,
+    {path:"", component:HomeComponent, title:"Home"},
+    {path:"home", component: HomeComponent,
         title:"Home"
     },
-     {path:"Education", component: EducationComponent,
+     {path:"education", component: EducationComponent,
         title:"Education"
     },
-     {path:"Skills", component: SkillsComponent,
+     {path:"skills", component: SkillsComponent,
         title:"Skills"
     },
-     {path:"Contact", component: ContactComponent,
+     {path:"contact", component: ContactComponent,
         title:"Contact"
     },
-     {path:"Me", component: MeComponent,
+     {path:"me", component: MeComponent,
         title:"Me"
     },
-     {path:"Projects", component: ProjectsComponent,
+     {path:"projects", component: ProjectsComponent,
         title:"Projects"
     }
 ];
