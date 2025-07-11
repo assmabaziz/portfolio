@@ -1,0 +1,25 @@
+main {
+  position: relative;
+  height: 100vh;
+  background-image: url("../assets/images/main-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .nav-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: rgba(127, 255, 212, 0.884);
+  }
+  .footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    min-width: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    background-color: rgba(127, 255, 212, 0.884);
+  }
+}

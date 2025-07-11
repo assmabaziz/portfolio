@@ -33,3 +33,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 #4- npm i bootstrap
 #5- Font-Awesome icons
 #6- ng add @angular/material
+
+# Project structure: 
+## Education
+## Skills
+## Home
+## Contact
+## Me
+## Projects
