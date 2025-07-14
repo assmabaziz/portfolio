@@ -13,28 +13,6 @@ section {
                 }
             }
         }
-        .soacial-icons {
-            span {
-                cursor: pointer;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 40px;
-                width: 40px;
-                font-size: 1.8rem;
-                background-color: $white-color;
-                transition: $main-transition;
-                &:hover {
-                    @include animate-box;
-                    background-color: $main-color;
-                    color: $white-color;
-                    svg {
-                        stroke : $white-color;
-                    }
-                }
-                
-            }
-        }
     }
     .home-image {
         img {
