@@ -1,3 +1,46 @@
-.home-text {
-    border: 1px dashed red
+@import "../../assets/sass/main.scss";
+section {
+    .home-text {
+        border: 2px dashed rgb(207, 206, 206);
+        .home-wrapper {
+            .home-text-header {
+                h1, h2 {
+                    font-size: 2rem;
+                    font-weight: normal;
+                    span {
+                        color: $main-color
+                    }
+                }
+            }
+        }
+        .soacial-icons {
+            span {
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                width: 40px;
+                font-size: 1.8rem;
+                background-color: $white-color;
+                transition: $main-transition;
+                &:hover {
+                    @include animate-box;
+                    background-color: $main-color;
+                    color: $white-color;
+                    svg {
+                        stroke : $white-color;
+                    }
+                }
+                
+            }
+        }
+    }
+    .home-image {
+        img {
+            max-width: 85%;
+            border-radius: 20%;
+        }
+    }
 }
+

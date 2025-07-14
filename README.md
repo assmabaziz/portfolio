@@ -31,7 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 #2- npm i @ngx-translate/http-loader
 #3- npm i ngx-translate-messageformat-compiler
 #4- npm i bootstrap
-#5- Font-Awesome icons
+#5- npm i bootstrap-icons
 #6- ng add @angular/material
 
 # Project structure: 
