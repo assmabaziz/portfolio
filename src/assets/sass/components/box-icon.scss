@@ -15,7 +15,10 @@
     text-decoration: none;
     color: $black-color;
   }
-  &:hover {
+}
+
+.box-icons-colored {
+   &:hover {
     @include animate-box;
     background-color: $main-color;
     svg {
@@ -27,3 +30,14 @@
     }
   }
 }
+
+.box-icons-transparent {
+   &:hover {
+    @include animate-box;
+  }
+}
+
+
+
+
+

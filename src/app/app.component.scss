@@ -1,3 +1,4 @@
+@import "../assets/sass/main.scss";
 main {
   position: relative;
   height: 100vh;
@@ -22,7 +23,9 @@ main {
     min-width: 40%;
     left: 50%;
     transform: translateX(-50%);
-    height: 50px;
-    background-color: rgba(127, 255, 212, 0.884);
+    height: 60px;
+    background-color: $white-color;
+    border-radius: 10px 10px 0  0;
+    border: 1px solid #D9DDDC;
   }
 }
