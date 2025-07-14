@@ -1,0 +1,22 @@
+@import "../../assets/sass/main.scss";
+section {
+  .contact-text {
+    h1,
+    h2 {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+  }
+  .contact-form {
+    .bnt-send {
+      color: $black-color;
+      background-color: $white-color;
+      border: none;
+      transition: $main-transition;
+      &:hover {
+        background-color: $main-color;
+        color: $white-color;
+      }
+    }
+  }
+}

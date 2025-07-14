@@ -11,12 +11,19 @@
   font-size: 1.8rem;
   background-color: $white-color;
   transition: $main-transition;
+  a {
+    text-decoration: none;
+    color: $black-color;
+  }
   &:hover {
     @include animate-box;
     background-color: $main-color;
-    color: $white-color;
     svg {
       stroke: $white-color;
+      fill:$white-color; 
+    }
+    a {
+      color: $white-color;
     }
   }
 }

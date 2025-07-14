@@ -2,5 +2,11 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-mdc-text-field-wrapper.mdc-text-field.mdc-text-field--filled {
+    background-color: transparent;
+    mat-label {
+        font-size: 1.2rem
+    }
+}
 
 @import "assets/sass/main.scss";
