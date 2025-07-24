@@ -5,25 +5,30 @@ import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { MeComponent } from './me/me.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { FeaturesComponent } from './features/features.component';
 
 export const routes: Routes = [
-    {path:"", component:HomeComponent, title:"Home"},
+    {path:"", component:HomeComponent,  data: { title: 'Home'}},
     {path:"home", component: HomeComponent,
-        title:"Home"
+        data: { title: 'Home' }
     },
      {path:"education", component: EducationComponent,
-        title:"Education"
+         data: { title: 'Education' }
     },
      {path:"skills", component: SkillsComponent,
-        title:"Skills"
+         data: { title: 'Skills' }
     },
      {path:"contact", component: ContactComponent,
-        title:"Contact"
+         data: { title: 'Contact' }
     },
      {path:"me", component: MeComponent,
-        title:"Me"
+               data: { title: 'Me' }
     },
      {path:"projects", component: ProjectsComponent,
-        title:"Projects"
-    }
+         data: { title: 'Projects' }
+    },
+    {path:"features", component: FeaturesComponent,
+         data: { title: 'Features' }
+    },
+    {path:"**", redirectTo:'home', pathMatch: 'full'}
 ];
